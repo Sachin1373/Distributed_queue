@@ -1,4 +1,8 @@
 import express from "express";
+import "./config/db/postgres";
+import "./config/db/redis";
+
+
 const app = express();
 app.use(express.json());
 
